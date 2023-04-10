@@ -43,7 +43,7 @@ main{
 .header-bmi p {
   font-size: 18px;
   font-weight: 500;
-  color: #515151;
+  color: #0c0c0c;
 }
 
 .calculator form {
@@ -61,7 +61,7 @@ main{
 
 .input-form label {
   font-weight: 500;
-  color: #515151;
+  color: #131313;
 }
 
 .input-form input {
@@ -81,7 +81,7 @@ main{
 
 .btn-calc {
   width: 25%;
-  padding: .9em 1em;
+  padding: .9em;
   margin-top: 15px;
   border: none;
   cursor: pointer;
@@ -97,4 +97,33 @@ main{
   background-color: #5e14ffbb;
   color: #ffffff;
   border: .5px solid #6f2cff;
+}
+
+#result{
+  margin-top: 20px;
+}
+
+.result {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    padding: 1rem 3rem;
+  }
+  .bmi-calculator {
+    width: 85%;
+  }
+  .header-bmi h1 {
+    font-size: 1.8rem;
+  }
+  .header-bmi p {
+    font-size: 1rem;
+  }
+  .input-form label {
+    font-size: 1rem;
+  }
+  .btn-calc {
+    width: 40%;
+  }
 }
